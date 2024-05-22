@@ -1,20 +1,20 @@
 [
-{
-  "model": "auth.user",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$720000$0yCXaTKwj7xwOFnmPCSEtn$CRhMYOBlL32wZpB0yzhnynHFE3zaM6QdL7ss78z/+44=",
-    "last_login": "2024-05-17T06:18:48.318Z",
-    "is_superuser": true,
-    "username": "2021-e-pesula",
-    "first_name": "",
-    "last_name": "",
-    "email": "frantisek.pesula@student.gyarab.cz",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2024-05-17T06:04:13.167Z",
-    "groups": [],
-    "user_permissions": []
-  }
-}
-]
+    {
+      "model": "auth.user",
+      "pk": 1,
+      "fields": {
+        "password": "pbkdf2_sha256$720000$0yCXaTKwj7xwOFnmPCSEtn$CRhMYOBlL32wZpB0yzhnynHFE3zaM6QdL7ss78z/+44=",
+        "last_login": "2024-05-17T06:18:48.318Z",
+        "is_superuser": true,
+        "username": "2021-e-pesula",
+        "first_name": "",
+        "last_name": "",
+        "email": "frantisek.pesula@student.gyarab.cz",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-05-17T06:04:13.167Z",
+        "groups": [],
+        "user_permissions": []
+      }
+    }
+    ]

@@ -1,50 +1,50 @@
 [
     {
-      "model": "filmy.director",
+      "model": "filmy.actor",
       "pk": 1,
       "fields": {
-        "name": "Tim Burton",
-        "birth_year": 1958,
+        "name": "Tom Hanks",
+        "birth_year": 1956,
         "description": "",
         "main_picture": ""
       }
     },
     {
-      "model": "filmy.director",
+      "model": "filmy.actor",
       "pk": 2,
       "fields": {
-        "name": "George Lucas",
-        "birth_year": 1944,
+        "name": "Vojta Kotek",
+        "birth_year": 1988,
         "description": "",
         "main_picture": ""
       }
     },
     {
-      "model": "filmy.director",
+      "model": "filmy.actor",
       "pk": 3,
       "fields": {
-        "name": "Christopher Nolan",
-        "birth_year": 1970,
+        "name": "Nicolas Cage",
+        "birth_year": 1964,
         "description": "",
         "main_picture": ""
       }
     },
     {
-      "model": "filmy.director",
+      "model": "filmy.actor",
       "pk": 4,
       "fields": {
-        "name": "Steven Spielberg",
-        "birth_year": 1946,
+        "name": "Zdenek Sverak",
+        "birth_year": 1936,
         "description": "",
         "main_picture": ""
       }
     },
     {
-      "model": "filmy.director",
+      "model": "filmy.actor",
       "pk": 5,
       "fields": {
-        "name": "Quentin Tarantino",
-        "birth_year": 1963,
+        "name": "Jack Black",
+        "birth_year": 1969,
         "description": "",
         "main_picture": ""
       }

@@ -1,2 +1,57 @@
 [
+    {
+      "model": "filmy.movie",
+      "pk": 1,
+      "fields": {
+        "name": "Ace Ventura: Zvireci detektiv",
+        "year": 1994,
+        "footage": 86,
+        "description": "",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 2,
+      "fields": {
+        "name": "San Andreas",
+        "year": 2015,
+        "footage": 114,
+        "description": "",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 3,
+      "fields": {
+        "name": "Jak se kroti krokodyli",
+        "year": 2006,
+        "footage": 112,
+        "description": "",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 4,
+      "fields": {
+        "name": "Avatar: The Way of Water",
+        "year": 2022,
+        "footage": 190,
+        "description": "pandora",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 5,
+      "fields": {
+        "name": "Avengers",
+        "year": 2012,
+        "footage": 143,
+        "description": "assemble",
+        "main_picture": ""
+      }
+    }
 ]
