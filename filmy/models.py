@@ -17,25 +17,25 @@ class Movie(models.Model):
         return ", ".join([i.name for i in self.genres.all()])
 
 class Director(models.Model):
-    title = models.CharField(max_length=300)
+    name = models.CharField(max_length=300)
     birth_year = models.PositiveSmallIntegerField(blank=True, null=True)
     description = models.TextField(blank=True)
     main_picture = models.ImageField(blank=True, null=True)
 
     def __str__(self):
-        return self.title
+        return self.name
 
 class Genre(models.Model):
-    title = models.CharField(max_length=300)
+    name = models.CharField(max_length=300)
 
     def __str__(self):
-        return self.title
+        return self.name
 
 class Actor(models.Model):
-    title = models.CharField(max_length=300)
+    name = models.CharField(max_length=300)
     birth_year = models.PositiveSmallIntegerField(blank=True, null=True)
     description = models.TextField(blank=True)
     main_picture = models.ImageField(blank=True, null=True)
 
     def __str__(self):
-        return self.title
+        return self.name
