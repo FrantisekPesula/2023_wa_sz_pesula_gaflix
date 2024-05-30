@@ -1,7 +1,7 @@
 from django.db import models
 
 class Movie(models.Model):
-    title = models.CharField(max_length=300)
+    name = models.CharField(max_length=300)
     year = models.PositiveSmallIntegerField(blank=True, null=True)
     footage = models.PositiveSmallIntegerField(blank=True, null=True, help_text="pls in minutes")
     description = models.TextField(blank=True)
@@ -11,7 +11,7 @@ class Movie(models.Model):
     genres = models.ManyToManyField('Genre', blank=True)
 
     def __str__(self):
-        return self.title
+        return self.name
         
     def genres_display(self):
         return ", ".join([i.name for i in self.genres.all()])
